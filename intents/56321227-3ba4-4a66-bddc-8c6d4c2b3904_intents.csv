@@ -18,21 +18,39 @@ I want to set up the chat bot for my shop,General_About_You
 Introduce your self,General_About_You
 Let us talk about you,General_About_You
 Tell me about your life,General_About_You
+I’m	available	if	you	need	to	talk,General_Agent_Capabilities
+And	then?,General_Agent_Capabilities
 Where can I find the frequently asked questions?,General_Agent_Capabilities
 How do I use you?,General_Agent_Capabilities
+Here	are	some	things	other	people	in	your situation	have considered,General_Agent_Capabilities
 I do not know what to ask,General_Agent_Capabilities
 Can you please give me a list of the types of things you can help me with?,General_Agent_Capabilities
 Can you tell me what services you are able to help me with?,General_Agent_Capabilities
+Could	you	talk	about	how	you	felt	when	you	learned	you	had	cancer?, General_Agent_Capabilities
 Do you have a list of things I can talk to you about?,General_Agent_Capabilities
+Go	on.,General_Agent_Capabilities
+Have	you	had	a	similar	experience?,General_Agent_Capabilities
+Has	this	ever	happened	before?,General_Agent_Capabilities
 Help now,General_Agent_Capabilities
-"Hi, what do you do?",General_Agent_Capabilities
+Hi, what do you do?",General_Agent_Capabilities
 How can I use you?,General_Agent_Capabilities
+How do	you	feel	about	your	recovery	this	time	in	the	hospital?,General_Agent_Capabilities
 How can you help me?,General_Agent_Capabilities
 How can you solve my problems?,General_Agent_Capabilities
+I	can’t	believe	that	nurse	would	give	you	the	wrong	medication,General_Agent_Capabilities
 I'd like to know what type of questions you can answer for me.,General_Agent_Capabilities
 Is there anything you can help me with?,General_Agent_Capabilities
+Let’s	stop	and	look	more	closely	at	your feelings	about	managing	your	medications,General_Agent_Capabilities
+Tell me about it,General_Agent_Capabilities
+Tell	me	what	is	happening	right	now?,General_Agent_Capabilities
+Tell	me	what	you	are	thinking	when	you	feel	anxious,General_Agent_Capabilities
 Tell me about what kind of things you do?,General_Agent_Capabilities
 Tell me something,General_Agent_Capabilities
+Tell	me	why	you	did	that?,General_Agent_Capabilites
+Tell	me	whether	my	understanding	of	it	agrees	with	yours,General_Agent_Capabilities
+That’s	hard	to	believe.Isn’t	that	unusual,General_Agent_Capabilities
+This	medication	is	for	you,General_Agent_Capabilities
+This	test	will	determine	your	treatment	options,General_Agent_Capabilities
 What are my options that you can help with?,General_Agent_Capabilities
 What are my options?,General_Agent_Capabilities
 What are you able to deal with?,General_Agent_Capabilities
@@ -47,7 +65,14 @@ What do you handle?,General_Agent_Capabilities
 What else can you help me with?,General_Agent_Capabilities
 What features are in here?,General_Agent_Capabilities
 What is this 4?,General_Agent_Capabilities
+When	did	this	happen?,General_Agent_Capabilities
+Was	it	before	or	after?,General_Agent_Capabilities
+You’ve	mentioned	many	things.	Let’s	go	back	to	your	thinking	of	“giving	up”,General_Agent_Capabilities
 What kinds of things can you do?,General_Agent_Capabilities
+Why	do	you	think	that?,General_Agent_Capabilities
+Why	do	you	feel	that	way?,General_Agent_Capabilities
+Why	don’t	you	take	your	medications?,General_Agent_Capabilities
+Why	are	you	upset?,General_Agent_Capabilities
 Need help from human,General_Connect_to_Agent
 Operator please,General_Connect_to_Agent
 Please assist me to get to an agent,General_Connect_to_Agent
@@ -85,7 +110,9 @@ I want an agent to help me,General_Connect_to_Agent
 I want to talk to a person,General_Connect_to_Agent
 I would like to speak to a human,General_Connect_to_Agent
 I would like to speak to someone,General_Connect_to_Agent
+I	see	no	one	else	in	the	room,General_Agent_Capabilities
 Is there anyone there I can actually talk to for real?,General_Connect_to_Agent
+Your	mother	is	not	here.		I	am	the	nurse,General_Connect_to_Agent
 Ok goodbye,General_Ending
 See you later,General_Ending
 See you,General_Ending
@@ -123,11 +150,13 @@ Im done,General_Ending
 Im good thank you,General_Ending
 I'm leaving now,General_Ending
 It was nice chatting with you,General_Ending
+Is	there	anything	you	would	like	to	discuss?, General Greetings
 Good day,General_Greetings
 You there,General_Greetings
 Who is this?,General_Greetings
 What's up?,General_Greetings
 What's new?,General_Greetings
+Wha is on your mind today?,General_Greetings
 Ok take me back,General_Greetings
 Looking good eve,General_Greetings
 How r u?,General_Greetings
@@ -183,9 +212,13 @@ You're really frustrating,General_Negative_Feedback
 Do not like you?,General_Negative_Feedback
 Everyone hates you,General_Negative_Feedback
 Hate you,General_Negative_Feedback
+I’m	dead	inside,General_Negative_Feedback
+I’m	way	out	in	the	ocean,General_Negative_Feedback
 I do not like you,General_Negative_Feedback
 I hate this!,General_Negative_Feedback
 I hate you,General_Negative_Feedback
+I	hate	it	here.		I	wish	I	could	go	home,General_Negative_Feedback
+I	can’t	talk	to	you	or	anyone	else	because	it’s	a	waste	of	time,General-negative_Feedback
 It is annoying,General_Negative_Feedback
 Quit annoying me,General_Negative_Feedback
 Robots are boring,General_Negative_Feedback
@@ -199,8 +232,18 @@ You are very frustrating,General_Negative_Feedback
 You do not seem smart,General_Negative_Feedback
 You're really irritating,General_Negative_Feedback
 You're too stupid,General_Negative_Feedback
+I	believe	you	will	find	a	way	to	face	your	situation	because	I	have	seen	your	courage	and	creativity,General_Postive_Feedback
+Don’t	worry,	everything	will	be	all	right,General_Postive_Feedback
+You’re	doing	fine,General_Positive_Feedback
+I	wouldn’t worry	about	that,General_Positive_Feedback
+Everything	happens	for	a	reason,General_Postive_Feedback
+God	doesn’t	give	you	more	than	you	can	handle,General_Positive_Feedback
+Keep	your	chin	up,General_Positive_Feedback
+Everyone	gets	down	in	the	dumps,General_Positive_Feedback
 Thank you,General_Positive_Feedback
 This is good,General_Positive_Feedback
+That’s	good	thinking.Great	job,General_Positive_Feedback
+That’s	the	right	attitude,General_Positive_Feedback
 This is great,General_Positive_Feedback
 This is so cool,General_Positive_Feedback
 You are awesome,General_Positive_Feedback
@@ -244,4 +287,5 @@ Conversation secure?,General_Security_Assurance
 Customer info secured?,General_Security_Assurance
 Do you have protection against hacks?,General_Security_Assurance
 How do I know this chat is not a scam?,General_Security_Assurance
-,medicine
+I	have	been	tossing	and	turning	all	night,General_sick_behaviour
+I’ve	been	overweight	all	my	life and	never	had	any	problems.I	can’t	understand	why	I	need	to	be	on	a	diet.,General_sick_behaviour
